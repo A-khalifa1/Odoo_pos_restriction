@@ -14,7 +14,7 @@ This custom Odoo 17 module prevents POS cashiers from applying manual line disco
 In retail environments where discounts are centrally managed via pricelists, this module helps enforce rules by blocking additional manual discounts at the cashier level.
 
 ## 📂 Module Structure
-
+```
 pos_discount_control/
 │
 ├── manifest.py
@@ -26,7 +26,7 @@ pos_discount_control/
 │ └── block_manual_discount.js
 ├── views/
 │ └── assets.xml # (optional if not using manifest assets key)
-
+```
 
 
 ## ⚙️ Installation
